@@ -2,7 +2,6 @@
 * @author Kevin Winn
 * @date May 10, 2021
 * @group Lightning Web Component Controllers
-* @group-content ../../ApexDocContent/LightningWebComponentControllers.htm
 * @description Controller class for HelloWorld LWC
 */
 public with sharing class HelloWorldController
