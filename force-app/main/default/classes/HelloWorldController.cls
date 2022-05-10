@@ -11,8 +11,7 @@ public with sharing class HelloWorldController
     * @date May 10, 2021
     * @description Returns a greeting to the user
     * @param personName the name of the person to greet
-    * @return greeting to person
-    * @throws AuraHandledException for developer tool debugging
+    * @return String \'Hello personName\'
     * @example
     * greeting = Hello Addepeeps
     */
