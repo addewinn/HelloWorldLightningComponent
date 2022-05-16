@@ -1,0 +1,2 @@
+"Problem","File","Severity","Line","Column","Rule","Description","URL","Category","Engine"
+"1","D:\Addepar\GitHub\HelloWorldLightningComponent\force-app\main\default\lwc\helloWorld\helloWorld.js","2","3","12","files-must-compile","Parsing error: Unexpected token =",,"Scanner Internal","eslint"
