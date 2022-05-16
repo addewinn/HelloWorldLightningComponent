@@ -13,9 +13,13 @@ Quick start guide for developing on the Salesforce platform.
   - [Download jar file](https://github.com/addewinn/addedoc/releases/download/v0.0.1-beta/addedoc.jar)
   - Clone repository you are working on
   - run command from CLI to generate local code documentation to help you get familiar with the project
-    - ```java -jar "your_local_path_to\addedoc.jar" -s "your_local_path_to\force-app\main\default\classes" -t "your_local_path_to_project" -p "global;public;private;testmethod;webService" -g "github_url_for_classes_directory" ```
-    - Example
-      - ```java -jar "C:\Program Files\Zulu\zulu-11\lib\addedoc.jar" -s "D:\Addepar\GitHub\HelloWorldLightningComponent\force-app\main\default\classes" -t "D:\Addepar\GitHub\HelloWorldLightningComponent" -p "global;public;private;testmethod;webService" -g "https://github.com/addewinn/HelloWorldLightningComponent/tree/master/force-app/main/default/classes/"```
+```
+java -jar "your_local_path_to\addedoc.jar" -s "your_local_path_to\force-app\main\default\classes" -t "your_local_path_to_project" -p "global;public;private;testmethod;webService" -g "github_url_for_classes_directory" 
+```
+  _Example_
+```
+java -jar "C:\Program Files\Zulu\zulu-11\lib\addedoc.jar" -s "D:\Addepar\GitHub\HelloWorldLightningComponent\force-app\main\default\classes" -t "D:\Addepar\GitHub\HelloWorldLightningComponent" -p "global;public;private;testmethod;webService" -g "https://github.com/addewinn/HelloWorldLightningComponent/tree/master/force-app/main/default/classes/"
+```
 
 ### VSCode Extensions
 - [Salesforce Extension Pack (Expanded)](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-expanded)
