@@ -72,6 +72,7 @@ sfdx plugins:install @salesforce/plugin-templates
 Default Apex Class 
 ```
 sfdx force:apex:class:create -n MyClassName
+sf force apex class create --name MyClassName -t=DefaultApexClass
 ```
 Unit Test 
 ```
